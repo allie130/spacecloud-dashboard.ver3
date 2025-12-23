@@ -1,0 +1,47 @@
+/* SpaceCloud Design System */
+:root {
+  /* Primary Colors - Purple */
+  --primary: #704de4;
+  --primary-dark: #6d3afb;
+  --primary-alt: #734ee0;
+
+  /* Secondary Colors */
+  --accent: #ffd014;
+
+  /* Neutral Colors */
+  --background: #f6f6f6;
+  --container: #ffffff;
+  --border: #e0e0e0;
+  --border-light: #ebebeb;
+
+  /* Text Colors */
+  --text-primary: #000000;
+  --text-secondary: #656565;
+  --text-tertiary: #949494;
+
+  /* Status Colors */
+  --error: #ff3a48;
+  --success: #00c853;
+  --increase: #00c853;
+  --decrease: #ff3a48;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Layout */
+  --header-height: 60px;
+  --sidebar-width: 240px;
+}

@@ -1,0 +1,27 @@
+.chart-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.chart-tab {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  background: var(--container);
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.chart-tab.active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.chart-tab:hover:not(.active) {
+  border-color: var(--primary);
+  color: var(--primary);
+}

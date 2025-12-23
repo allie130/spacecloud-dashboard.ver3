@@ -1,0 +1,28 @@
+.date-picker-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--container);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.date-hint {
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.change-indicator {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.change-indicator.positive {
+  color: var(--increase);
+}
+
+.change-indicator.negative {
+  color: var(--decrease);
+}
